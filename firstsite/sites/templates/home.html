@@ -1,0 +1,203 @@
+{% load staticfiles %}
+ <!DOCTYPE html>
+  <html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>College</title>
+      <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+      <link rel="stylesheet" href="{% static "css/bootstrap-theme.min.css" %}">
+      <link rel="stylesheet" href="{% static "css/slide-menu.css" %}">
+   </head>
+
+   <body>
+
+   <div id="wrapper" class="">
+         <div class="overlay" style="display: none;"></div>
+
+      <div id="page-content-wrapper">
+   <nav class="navbar navbar-inverse navbar-fixed-top " id="sidebar-wrapper" role="navigation">
+
+            <ul class="nav sidebar-nav">
+                 
+               <li class="pp">
+                  <a href="#"> Home</a>
+                  
+               </li>
+               <li>
+                  <a href="#"> Department</a>
+               </li>
+               <li>
+                  <a href="#"> Teacher</a>
+               </li>
+               <li>
+                  <a href="#"> Student</a>
+               </li>
+               <li>
+                  <a href="#"> Contact Us</a>
+               </li>
+
+               <li>
+                  <a href="#"> Arabic</a>
+               </li>
+            </ul>
+         </nav>
+
+         <div id="page-content-wrapper">
+            <button type="button" class="hamburger animated fadeInleft is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+            </button>
+         </div>
+         
+      
+      </div>  
+                      <!--  start carousel -->
+
+<div id="myCarousel" class="carousel slide TEXT-" data-ride="carousel">  
+         
+   <div class="carousel-inner" role="listbox">
+            <div class="item active">
+               <img src= "{% static "img/2.jpg" %}" alt="First slide">
+                  <div class="container">  
+                     <div class="carousel-caption">
+                        <h1>Education College for Human Science </h1>
+                     </div>
+                  </div>
+               </div>
+            <div class="item">
+               <img src="{% static "img/9.jpg" %}" alt="Second slide">
+                  <div class="container">
+                     <div class="carousel-caption">
+                       <h1>Education College for Human Science </h1> 
+                     </div>
+                  </div>
+            </div>
+            <div class="item">
+               <img src="{% static "img/3333.jpg" %}" alt="third slide">
+                  <div class="container">
+                     <div class="carousel-caption">
+                       <h1>Education College for Human Science </h1> 
+                     </div>
+                  </div>
+            </div>
+            <div class="item">
+               <img src="{% static "img/555.jpg" %}" alt="fourth slide">
+                  <div class="container">
+                     <div class="carousel-caption">
+                       <h1>Education College for Human Science </h1> 
+                     </div>
+                  </div>
+            </div>  
+   </div>  
+</div>  <!-- end carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row  text-center"> 
+        <div class="col-lg-4"> 
+          <a href="@" ><img class="img-circle" src="{% static "img/Schedule.jpg" %}" alt="Generic placeholder image" width="180" height="180"></a>
+          <h2>Lectures Schedule</h2>
+          <h4 class="lead">Weekly lectures schedule for students of the college .</h4>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="#" ><img class="img-circle" src="{% static "img/6.jpg" %}" alt="Generic placeholder image" width="180" height="180"></a>
+          <h2>Photo Gallery</h2>
+          <h4 class="lead"> Contains all  photoes related to the college. </h4>
+          
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="&" > <img class="img-circle" src="{% static "img/11.jpg" %}" alt="Generic placeholder image" width="180" height="180"></a>
+          <h2>Scientific Research</h2>
+          <h4 class="lead">Includes research scientific that done by students and teachers.</h4>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h1 class="featurette-heading">The opening of the book fair in our college</h1>
+          <p class="lead">Established Education College for Human Sciences at the   University of Karbala book fair in college aphids for the period
+            From 01/10/2016 up to 01/25/2016 with more than (4500) included a book of science Humanitarian (language, criticism, history, psychology) For his part, Mr. Dean of the College said Prof. Dr. (Farouk Mahmoud Habboubi) on this occasion, saying: - The establishment of exhibition The book creates an atmosphere of intellectual interaction and we need to strengthen the role of culture in the Enlightenment.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static "img/21.jpg" %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <h1 class="featurette-heading">The regular meeting of the Committee 
+               of Deans of Faculties of Education in Iraqi universities
+            </h1>
+          <p class="lead">Embraced the College of Education in Human Sciences at the University of Karbala regular meeting of the Committee of Deans of Faculties of Education in Iraqi universities morning Wednesday, 27 -1- 2016 and the presidency of the university hall, headed by Dr. (Khaled Fahd Ali al-Jubouri) and Rapporteur of the Committee, Dr. (Ihsan Silverline Nasser), has been during the meeting discussed several issues including (updated curriculum development and approval of the curriculum and the approval of the author of textbooks and evaluate curricula for postgraduate studies in colleges developed as well as to express an opinion in the approved curriculum in sober universities).</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="{% static "img/22.jpg" %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h1 class="featurette-heading">Scientific symposium guidance of the 
+               Department of Applied Geography
+          </h1>
+          <p class="lead">Applied set up the Department of Geography in the College of Education and Human Sciences / University of Karbala, an educational specialist scientific symposium guidance about the (water consumption) and was under the title (the rationalization of water consumption to ensure the security and unity of Iraq). And on Wednesday (01.13.2016) at ten in the morning, and some continued (two hours), through which shed five scientific research, the symposium was attended by a number of initial-scale-scaleerested professionals and stakeholdersContract.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static "img/23.jpg" %}" alt="Generic placeholder image">
+        </div>
+      </div>
+            <div class="pull-right"><a href="#">Back to top</a></div>
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+         
+      <!-- FOOTER -->
+      <footer class="fot">
+      
+        <div class="text">  Address : IRAQ - Karbala'a</div>
+        <div class="text">  Email : eduhok@hers.iq</div>
+        <div class="text">  Phone : 0781654772 </div>
+        
+      </footer>
+
+    </div><!-- /.container -->      
+
+
+
+
+
+
+
+            <div class="container">
+               
+            </div>
+         </div>
+      </div>
+      <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="{% static "js/bootstrap.min.js" %}"></script>
+      <script src="{% static "js/slide-menu.js" %}"></script>
+   </body>
+</html>
+```
